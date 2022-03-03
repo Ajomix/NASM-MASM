@@ -1,16 +1,15 @@
-.model small 
-.data 
-    
-.code 
+.model small
+.data
 
-main proc 
+
+main proc
     mov ah,1
-    int 21h 
-    
-    mov ah,2
-    mov dl,al 
     int 21h
-    
-    main endp 
+
+    mov ah,2
+    mov dl,al
+    int 21h
+
+    main endp
 
 end
